@@ -7,7 +7,7 @@ app = Flask(__name__)
 github_url = "https://raw.githubusercontent.com/mukoubuchi/StudentChatbott/main/coursera_courses.json"
 
 # GitHub Personal Access Token (replace with your actual token)
-github_token = "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"
+github_token = "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"
 
 @app.route('/chat', methods=['POST'])
 def chat():
