@@ -1,0 +1,1927 @@
+{
+  "name": "Student Advisor Chatbot",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 13,
+    "entities": 1,
+    "dialog_nodes": 24
+  },
+  "status": "Available",
+  "created": "2024-03-10T03:12:01.853Z",
+  "updated": "2024-03-10T03:12:01.853Z",
+  "language": "en",
+  "skill_id": "059b383d-767a-4bad-8d87-74ade4bc9b1c",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2024-03-10T03:12:01.853Z",
+    "intents": [
+      {
+        "intent": "Course_Recommendation",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Do you have any courses on genetics?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want to learn Python",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Recommend me a course on nutrition",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What courses do you recommend?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What's the best course on Machine Learning?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Which data science course should I take?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Enrollment_Cost",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "blah blah blah",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "General_About_You",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "About you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I use another language?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Describe your self",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you have a name?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you know who you are?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can I configure you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How do you function?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How old are you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Introduce your self",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want to set up the chat bot for my shop",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Let us talk about you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me about your life",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me something about yourself",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What languages do you speak?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What should I know about you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What's your name?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Where are you from?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Where were you born?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Who are you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Why are you here?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Request generic personal attributes."
+      },
+      {
+        "intent": "General_Agent_Capabilities",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Can you please give me a list of the types of things you can help me with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can you tell me what services you are able to help me with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you have a list of things I can talk to you about?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Help now",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hi, what do you do?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can I use you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can you help me?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can you solve my problems?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How do I use you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'd like to know what type of questions you can answer for me.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I do not know what to ask",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is there anything you can help me with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me about what kind of things you do?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me something",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are my options?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are my options that you can help with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are you able to deal with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are you able to understand?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are you capable of?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are you good at?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are your skills?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What are you used for?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What can I ask you to do?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What do you do?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What do you handle?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What else can you help me with?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What features are in here?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What is this 4?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What kinds of things can you do?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Where can I find the frequently asked questions?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Request capabilities of the bot."
+      },
+      {
+        "intent": "General_Connect_to_Agent",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Agent help",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "A real agent, please.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Call agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I connect to an agent?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I speak to a human please?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I speak to a live person?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I speak to an advisor?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I speak with somebody?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I talk to someone?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can you assist me to connect to an agent?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can you connect me with a real person?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Connect me to a live operator please.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Contact person",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Could you please transfer me to your master?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Customer service representative please.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do not want a robot?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hi can you transfer me",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can I skip the recorded menu and go straight to a live person?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I don't want to talk to a bot.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I don't want to talk to you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I need to speak to a representative. How would I go about doing so?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is there anyone there I can actually talk to for real?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want a manager",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want an agent to help me",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want to talk to a person",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I would like to speak to a human",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I would like to speak to someone",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Need help from human",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Operator please",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Please assist me to get to an agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Please connect me to a live agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Please let me talk to a human being.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Pls connect",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Put me through to someone",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Send me to an agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Where is the closest agent?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Yes, take me to a real person",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Request a human agent."
+      },
+      {
+        "intent": "General_Ending",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Bye bye",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Bye now",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Catch you later",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Cya later",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Ending this session",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "End trial",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Finished now, good bye",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Get lost",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Go away",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Going now",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Good. bye.",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Goodbye",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Go off",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Have a nice day?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey bot go away",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I am leaving",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I am out of here",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I d like to stop doing this",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I have got to go",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'm done",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Im done",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Im good thank you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'm leaving now",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "It was nice chatting with you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want to quit",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Ok goodbye",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "See you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "See you later",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Shut up",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Stop doing this",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Stop talking to me",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Thanks, bye!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Thanks very much, bye!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Thank you for your time",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "That is all",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "That's everything",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Time to go",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "End the conversation."
+      },
+      {
+        "intent": "General_Greetings",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Good day",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Good evening",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Good morning",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Good to see you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Greetings",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Have you been well?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hello Agent",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hello I am looking for some help here",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey how are you doing",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey there",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey there all",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey twin",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hey you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hi advisor",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hi there",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How are things going?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How are you today?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How have you been?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How is it going?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How r u?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Looking good eve",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Ok take me back",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What's new?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What's up?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Who is this?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You there",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Greet the bot."
+      },
+      {
+        "intent": "General_Human_or_Bot",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Am I chatting with a human?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Am I talking to a Bot?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Am I talking to a person or am I talking to an AI?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Am I talking to Watson?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you a human or a bot?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you a robot?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you even real?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you human?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you real?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How can you prove you are a human?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is this a computer?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me, are you a human or no?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Ask if speaking to a human or a bot."
+      },
+      {
+        "intent": "General_Jokes",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Another joke",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are there jokes?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can you tell a joke?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can you tell me a joke?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you have a joke?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you have humor?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you like fun?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you like humor?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I am getting bored",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'm bored",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I want a joke",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "One more joke",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Surprise me with something hilarious",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me a joke",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Tell me something funny",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What do you do for fun?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What is your favorite joke?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Request a joke."
+      },
+      {
+        "intent": "General_Negative_Feedback",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Do not like you?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Everyone hates you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Hate you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I do not like you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I hate this!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I hate you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "It is annoying",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Quit annoying me",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Robots are boring",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Robots are stupid",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Stupid",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Why are you so annoying?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Why are you stupid?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are having delusions",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are on my nerves",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are very frustrating",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You do not seem smart",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You're really frustrating",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You're really irritating",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You're too stupid",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Express unfavorable feedback."
+      },
+      {
+        "intent": "General_Positive_Feedback",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Brilliant!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can't believe you are that good",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How cool is this?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I like what you did there! :)",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'm looking forward to working with you again! :)",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Love your work",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Ok thank you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "This is good",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "This is great",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "This is so cool",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are awesome",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are great",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are the best",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You are wonderful",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You gave me exactly what I need!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You're a genius!",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You the man",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "You've been so helpful :)",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Express positive sentiment or gratitude."
+      },
+      {
+        "intent": "General_Security_Assurance",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Are you safe?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Are you safe on hackers?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Can I be sure that my stored card details are held securely?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Conversation secure?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Customer info secured?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you have protection against hacks?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How do I know if my card info is kept safe?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How do I know this chat is not a scam?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How is my credit card info secured?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "How safe is my data?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "I'd like proof of a secure chat",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "In what way can I tell if my plastic is safe?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is my card info secure?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is my payment information secure?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is there a reason to distrust this chat?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is this an official chat?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is this a trusted chat site?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Is this conversation secure?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Precautions hackers?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Protection hacks?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Secure conversation?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What guards do you have in place to protect your customer's data?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What makes this chat trustworthy?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "What safety measures are used to ensure that chat is secure?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Why would I trust this chat?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Will my conversation remain secured?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": "Express concerns about the security of the bot."
+      },
+      {
+        "intent": "Professional_Certificate_Recommendation",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "examples": [
+          {
+            "text": "Can you recommend a professional certificate to me?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Do you offer a deep learning certificate?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Which computer science certificate?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Which data science certificate?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          },
+          {
+            "text": "Which data science certificate do you recommend?",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2024-03-10T03:12:01.853Z",
+    "entities": [
+      {
+        "entity": "professionalcertificate",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "customer engagement",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z",
+            "synonyms": [
+              "customer care, customer support"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "data science",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z",
+            "synonyms": [
+              "ibm, data analytics, data analysis, data engineering"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "entrepreneurship",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z",
+            "synonyms": [
+              "innovation management, entrepreneur, business development, mba"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "IT support",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z",
+            "synonyms": [
+              "technical support"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "project management",
+            "created": "2024-03-10T03:12:04.178Z",
+            "updated": "2024-03-10T03:12:04.178Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 13,
+          "entities": 1,
+          "dialog_nodes": 24
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      },
+      "from-sample": true
+    },
+    "webhooks": [
+      {
+        "url": "https://shinichisato-5000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/chat",
+        "name": "main_webhook",
+        "headers": [
+          {
+            "name": "Accept",
+            "value": "application/json"
+          },
+          {
+            "name": "content-type",
+            "value": "application/json"
+          },
+          {
+            "name": "Authorization",
+            "value": "Basic bXVrb3VidWNoaTpnaHBfVHFPaFI2YzZwcmIxaHc2bDJiNXBsdGc0bGxNNDFYM1ZIbGtl"
+          }
+        ]
+      }
+    ],
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#General_Positive_Feedback",
+        "digress_in": "does_not_return",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_6_1710026708167"
+      },
+      {
+        "type": "event_handler",
+        "parent": "slot_10_1710033785248",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "event_name": "input",
+        "dialog_node": "handler_3_1710033785265"
+      },
+      {
+        "type": "event_handler",
+        "output": {},
+        "parent": "slot_10_1710033785248",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "event_name": "focus",
+        "dialog_node": "handler_7_1710033785265",
+        "previous_sibling": "handler_3_1710033785265"
+      },
+      {
+        "type": "standard",
+        "title": "Enrollment Cost ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "blah blah blah"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#Enrollment_Cost",
+        "dialog_node": "node_2_1710027348769",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Courses ",
+        "actions": [
+          {
+            "name": "main_webhook",
+            "type": "webhook",
+            "parameters": {
+              "user_message": "<?input.text?>"
+            },
+            "result_variable": "webhook_result_1"
+          }
+        ],
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "condition",
+          "dialog_node": "node_5_1710030855720"
+        },
+        "conditions": "#Course_Recommendation",
+        "dialog_node": "node_2_1710028294183",
+        "previous_sibling": "node_3_1710027693132"
+      },
+      {
+        "type": "standard",
+        "title": "Professional Certificate",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "#Professional_Certificate_Recommendation",
+        "dialog_node": "node_3_1710027693132",
+        "previous_sibling": "node_2_1710027348769"
+      },
+      {
+        "type": "standard",
+        "title": "Good byes",
+        "parent": "node_6_1710026708167",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#General_Ending",
+        "dialog_node": "node_5_1710026794514",
+        "previous_sibling": "node_8_1710026779461"
+      },
+      {
+        "type": "standard",
+        "title": "GitHub",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Here are some courses I found for you!</br>\n<br> Name of the course: <br>\n<? $webhook_result_1.response_message[0].name ?></br>\n<br>Description of the course: <br> \n<? $webhook_result_1.response_message[0].description.substring(0, 200) ?>"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1710028294183",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "true",
+        "dialog_node": "node_5_1710030855720",
+        "previous_sibling": "response_8_1710033806176"
+      },
+      {
+        "type": "folder",
+        "title": "Chitchat",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#General_Ending",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_6_1710026708167",
+        "previous_sibling": "node_2_1710028294183"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": []
+        },
+        "parent": "node_6_1710026708167",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#General_Greetings",
+        "dialog_node": "node_7_1710026757632"
+      },
+      {
+        "type": "standard",
+        "title": "Thank you",
+        "parent": "node_6_1710026708167",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "#General_Positive_Feedback",
+        "dialog_node": "node_8_1710026779461",
+        "previous_sibling": "node_7_1710026757632"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "We recommend our Applied Project Management Certificate by University of California Irvine."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "@professionalcertificate:(project management)",
+        "dialog_node": "response_10_1710032563302"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "We recommend Google’s IT Support certificate."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "@professionalcertificate:(IT support)",
+        "dialog_node": "response_1_1710032723280",
+        "previous_sibling": "response_10_1710032563302"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. I'm a Student Advisor Chatbot. I can help you with your questions about our site and give you course recommendations."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "Welcome",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "disabled": true,
+        "dialog_node": "response_1_1710033186686"
+      },
+      {
+        "type": "response_condition",
+        "output": {},
+        "parent": "Welcome",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "disabled": true,
+        "conditions": "$action_result_2",
+        "dialog_node": "response_3_1710033187564",
+        "previous_sibling": "response_1_1710033186686"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "We recommend the IBM Data Science professional certificate."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "@professionalcertificate:(data science)",
+        "dialog_node": "response_5_1710032788716",
+        "previous_sibling": "response_6_1710032749319"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "We recommend the IBM Customer Engagement Specialist professional certificate."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "@professionalcertificate:(customer engagement)",
+        "dialog_node": "response_6_1710032749319",
+        "previous_sibling": "response_1_1710032723280"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "We recommend the professional certificate in Innovation Management and Entrepreneurship by HEC Paris."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "@professionalcertificate:entrepreneurship",
+        "dialog_node": "response_7_1710032806408",
+        "previous_sibling": "response_5_1710032788716"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You can see a list of our professional certificates on our site."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_3_1710027693132",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "true",
+        "dialog_node": "response_8_1710032824604",
+        "previous_sibling": "response_7_1710032806408"
+      },
+      {
+        "type": "response_condition",
+        "output": {},
+        "parent": "Welcome",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "disabled": true,
+        "conditions": "anything_else",
+        "dialog_node": "response_8_1710033187971",
+        "previous_sibling": "response_3_1710033187564"
+      },
+      {
+        "type": "response_condition",
+        "parent": "node_2_1710028294183",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "anything_else",
+        "dialog_node": "response_8_1710033806176",
+        "previous_sibling": "response_9_1710033832569"
+      },
+      {
+        "type": "response_condition",
+        "parent": "node_2_1710028294183",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "conditions": "$webhook_result_1",
+        "dialog_node": "response_9_1710033832569",
+        "previous_sibling": "slot_10_1710033785248"
+      },
+      {
+        "type": "slot",
+        "parent": "node_2_1710028294183",
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "dialog_node": "slot_10_1710033785248"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. I'm a Student Advisor Chatbot. I can help you with your questions about our site and give you course recommendations."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2024-03-10T03:12:04.178Z",
+        "updated": "2024-03-10T03:12:04.178Z",
+        "metadata": {
+          "_customization": {
+            "mcr": false
+          }
+        },
+        "conditions": "#General_Greetings",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "nlp": {
+        "model": "latest"
+      },
+      "disambiguation": {
+        "enabled": false,
+        "randomize": true,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above."
+      }
+    },
+    "learning_opt_out": false
+  },
+  "description": "_",
+  "assistant_id": "a076d6c9-429f-4f7b-8705-4203192d8883",
+  "dialog_settings": {
+    "source_assistant": "d990b298-c749-415d-bda3-636c73c4bbfe"
+  },
+  "assistant_references": []
+}
